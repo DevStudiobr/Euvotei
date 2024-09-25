@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Voto</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Metadados para compartilhamento -->
+    <meta property="og:title" content="Mostre seu apoio 55 ou 11?">
+    <meta property="og:description" content="Crie seu voto personalizado!">
+    <meta property="og:image" content="URL_DA_IMAGEM_DO_VOTO">
+    <meta property="og:url" content="URL_DO_SEU_SITE">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Voto</h1>
+        <label for="partido">Escolha o número do partido:</label>
+        <select id="partido">
+            <option value="11">11</option>
+            <option value="55">55</option>
+        </select>
+        <button onclick="gerarVoto()">Gerar Voto</button>
+
+        <canvas id="canvas" width="300" height="300"></canvas>
+      
+              <button onclick="baixarImagem()">Baixar Imagem</button>
+        <button onclick="compartilhar()">Compartilhar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
