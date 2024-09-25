@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #25D366;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #25D366;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #128C7E;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #128C7E;
+    transform: translateY(-2px);
+}
+
+canvas {
+    margin-top: 20px;
+    display: block;
+    border: 5px solid #25D366; /* Borda verde */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#downloadLink {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #25D366;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #25D366;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#downloadLink:hover {
+    background-color: #25D366;
+    color: white;
+}
