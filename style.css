@@ -1,0 +1,111 @@
+body {
+    background-color: #e9ecef;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    background: white;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #0056b3;
+}
+
+button, a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultado img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.resultado h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.resultado p {
+    font-size: 48px; /* Aumentando o tamanho do número */
+    margin: 0; /* Removendo margens */
+    font-weight: bold; /* Destaque para o número */
+}
+
+/* Estilo para o círculo com gradiente */
+.circulo {
+    border-radius: 50%;
+    width: 200px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 0 auto; /* Centraliza o círculo */
+}
+
+.circulo h2 {
+    margin: 0;
+    font-size: 20px; /* Tamanho da fonte do nome */
+}
+
+.circulo p {
+    font-size: 48px; /* Tamanho da fonte do número */
+    margin: 0; /* Removendo margens */
+    font-weight: bold; /* Destaque para o número */
+}
+
+/* Estilo para os ícones dos botões */
+#compartilhar, #baixar {
+    font-size: 14px; /* Diminuindo o tamanho do botão de compartilhar */
+    margin-top: 10px; /* Um pouco de espaço acima do botão */
+}
+
+.invisivel {
+    display: none; /* Oculta elementos invisíveis */
+}
